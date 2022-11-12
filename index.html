@@ -27,11 +27,14 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.8/sweetalert2.min.css" integrity="sha512-NvuRGlPf6cHpxQqBGnPe7fPoACpyrjhlSNeXVUY7BZAj1nNhuNpRBq3osC4yr2vswUEuHq2HtCsY2vfLNCndYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
+<style>
+  
+</style>
   <!-- =======================================================
   * Template Name: Impact - v1.0.0
   * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
@@ -48,14 +51,14 @@
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a
             href="mailto:contact@example.com">contact@devonsite.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:+92 335 4925006"><span>+92 335 4925006</span></a></i>
       </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
+              <div class="social-links d-none d-md-flex align-items-center">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+              </div>
     </div>
   </section><!-- End Top Bar -->
 
@@ -65,17 +68,18 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Devonsite<span>.</span></h1>
+         <h1>Devonsite<span>.</span></h1>
+        <!-- <img src="assets/img/dev/hero/large.png" alt=""> -->
       </a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#recent-posts">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -93,15 +97,13 @@
       <div class="row gy-5" data-aos="fade-in">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
           <h2>Welcome to <span>Devonsite</span></h2>
-          <p>
-            We are dealing with different softwares and websites. We are providing advertising website themes and sales
-            softwares.
+          <p>We provide the most sophisticated and updated software development services and create better websites with mobile-responsive templates, seamless drag & drop and unlimited customization.
           </p>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-              class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch
-                Video</span></a>
+            <a href="#choosedevonsite"
+              class="btn-watch-video d-flex align-items-center">
+              <i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2">
@@ -117,9 +119,9 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon">
-                <i class="devicon-laravel-plain"></i>
+                <i class="devicon-php-plain"></i>
               </div>
-              <h4 class="title"><a href="" class="stretched-link">Php Laravel</a></h4>
+              <h4 class="title"><a href="" class="stretched-link">Php</a></h4>
             </div>
           </div>
           <!--End Icon Box -->
@@ -127,9 +129,9 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon">
-                <i class="devicon-angularjs-plain"></i>
+                <i class="devicon-laravel-plain"></i>
               </div>
-              <h4 class="title"><a href="" class="stretched-link">Angular Js</a></h4>
+              <h4 class="title"><a href="" class="stretched-link">Php Laravel</a></h4>
             </div>
           </div>
           <!--End Icon Box -->
@@ -147,9 +149,9 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
               <div class="icon">
-            <i class="devicon-php-plain"></i>
+            <i class="devicon-angularjs-plain"></i>
               </div>
-              <h4 class="title"><a href="" class="stretched-link">Php</a></h4>
+              <h4 class="title"><a href="" class="stretched-link">Angularjs</a></h4>
             </div>
           </div>
           <!--End Icon Box -->
@@ -163,6 +165,7 @@
   <!-- End Hero Section -->
 
   <main id="main">
+
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -180,10 +183,9 @@
             <!-- <h3>We believe in to provide the quality solutions</h3> -->
             <h3>We are available based on the Time zone that suits you.            </h3>
             <img src="./assets/img/dev/about/about.png" class="img-fluid rounded-4 mb-4" alt="">
-            <p>With the Passage of time we are growing, and our skills are growing, and we have promised ourselves to provide you with the best of everything.
-            </p>
+            <p>We deliver high-fidelity software solutions for web, mobile, and desktops mapped onto your unique business processes. We build, modernize, optimize and scale your business apps using the latests tools and cross-platform technologies.</p>
             <p>Devonsite is keen to make your ideas Live, We secure you for the future. Our apps are stable, and We use latest technologies to build your system,
-               We write generic,properly commented and structured code so maintenance is easy for the future!.
+               We write generic, properly commented and structured code so maintenance is easy for the future!.
             </p>
           </div>
           <div class="col-lg-6">
@@ -196,7 +198,7 @@
                 </li>
                 <li><i class="bi bi-check-circle-fill"></i> We do have a team that is fully dedicated for hybrid, or Native Android or Native IOS apps.
                 </li>
-                <li><i class="bi bi-check-circle-fill"></i> With the Passage of time we are growing, and our skills are growing, and we have promised ourselves to provide you with the best of everything.</li>
+                <li><i class="bi bi-check-circle-fill"></i> With the Passage of time we are growing our skills, and we have promised ourselves to provide you with the best of everything.</li>
               </ul>
               <!-- <p>
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -205,7 +207,7 @@
               </p> -->
 
               <div class="position-relative mt-4">
-                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                <img src="assets/img/about-3.jpg" class="img-fluid rounded-4" alt="">
                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
               </div>
             </div>
@@ -250,19 +252,19 @@
             <div class="stats-item d-flex align-items-center">
               <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae diredo para mesta</p>
+              <p><strong>Happy Clients</strong></p>
             </div><!-- End Stats Item -->
 
             <div class="stats-item d-flex align-items-center">
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+              <p><strong>Projects</strong></p>
             </div><!-- End Stats Item -->
 
             <div class="stats-item d-flex align-items-center">
               <span data-purecounter-start="0" data-purecounter-end="453" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+              <p><strong>Hours Of Support</strong></p>
             </div><!-- End Stats Item -->
 
           </div>
@@ -368,8 +370,7 @@
               </div>
               <h3> NodeJS
               </h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
-                recusandae ducimus enim.</p>
+              <p>Our Node.js team is responsible for writing server-side web application logic in JavaScript.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -379,14 +380,30 @@
       </div>
     </section><!-- End Our Services Section -->
 
+    <!-- Why Choose Devonsite -->
+    <section id="choosedevonsite" class="choosedevonsite about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Why Choose Devonsite</h2>
+          <p>We have highly skilled engineers with excellent technical knowledge and experience in using latest software standards,
+             tools, platforms, frameworks and technologies and we invest continuously in training and education, to be able to respond
+              to any new technology challenges and demands from our clients.</p>
+              <div class="position-relative mt-5">
+                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                <a href="assets/video/aboutdevonsite.mp4" class="glightbox play-btn"></a>
+              </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Why Choose Devonsite -->
+
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials sections-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Testimonials</h2>
-          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos
-            quam</p>
+          <p>Testimonial describe the reviews of our clients.</p>
         </div>
 
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
@@ -395,23 +412,16 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Saul Goodman</h3>
-                      <h4>Ceo &amp; Founder</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                  <img src="assets/img/testimonials/review1.png.png">
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/review2.png.png" >
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -419,23 +429,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Sara Wilsson</h3>
-                      <h4>Designer</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                    quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                  <img src="assets/img/testimonials/review3.png.png">
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -443,23 +437,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Jena Karlis</h3>
-                      <h4>Store Owner</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                    tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                  <img src="assets/img/testimonials/review4.png.png">
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -467,23 +445,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Matt Brandon</h3>
-                      <h4>Freelancer</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                    minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                  <img src="assets/img/testimonials/review5.png.png">
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -491,23 +453,31 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>John Larson</h3>
-                      <h4>Entrepreneur</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                    culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
+                  <img src="assets/img/testimonials/review6.png.png">
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/review7.png.png">
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/review8.png.png">
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/review9.png.png">
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -520,13 +490,13 @@
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio sections-bg">
+    <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Portfolio</h2>
-          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia
-            reprehenderit sunt deleniti</p>
+          <p>We’ll be sharing examples of various portfolios.
+             Let’s start by taking a look a few examples from various tech professions to spark some inspiration.</p>
         </div>
 
         <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
@@ -535,146 +505,161 @@
           <div>
             <ul class="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-website">Website</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Product</li>
-              <li data-filter=".filter-branding">Branding</li>
-              <li data-filter=".filter-books">Books</li>
+              <!-- <li data-filter=".filter-branding">Branding</li> -->
+              <!-- <li data-filter=".filter-books">Books</li> -->
             </ul><!-- End Portfolio Filters -->
           </div>
 
           <div class="row gy-4 portfolio-container">
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
-                    src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/crm.PNG" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/crm.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">App 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>CRM</h4>
+                  <h6><a href="http://crmold.websitesfactory.be/admin/index.php" target="_blank" title="More Details">http://crmold.websitesfactory.be</a></h6>
+                  <p>This website tool is a complete CRM, with many features, it is basically sum up of many small 
+                    projects.</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+            <!-- <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
                     src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Product 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>CRM Website</h4>
+                  <h6><a href="https://dev.klantensysteem.be/admin/login.php" target="_blank" title="More Details">https://dev.klentensysteem.be</a></h6>
+                  <p>This is a complete big Tool and it includes, CRM, Booking Products, specially Marketing tool etc.</p>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app"
-                  class="glightbox"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/dashboard.PNG" data-gallery="portfolio-gallery-app"
+                  class="glightbox"><img src="assets/img/portfolio/dashboard.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Branding 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Management System</h4>
+                  <h6><a href="http://dashboard.signmy.name/" target="_blank" title="More Details">https://dashboardsignmy.name</a></h6>
+                  <p>This website is advance level of Document Management system, it is developed in PHP Laravel 5.</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
-                    src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/tikini.PNG" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/tikini.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Hair Saloon</h4>
+                  <h6><a href="https://tikini.be/" target="_blank" title="More Details">https://tikini.be</a></h6>
+                  <p>The amazing part is, the front end is handled from backend, and is
+                    handled in the form of blocks from backend.</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
-                    src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/vcoens.PNG" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/vcoens.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>eCommerce</h4>
+                  <h6><a href="https://juwelencoens.be/" target="_blank" title="More Details">https://juwelenocoen.be</a></h6>
+                  <p>This website is about jewelries and other products, backend give same display page as Frontend.</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
-                    src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/denduyer.PNG" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/denduyer.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>eCommerce</h4>
+                  <h6><a href="https://www.denduyver.eu/" target="_blank" title="More Details">https://www.denduyver.eu</a></h6>
+                  <p>This website is about cars selling. Company provided me frontend design. Later, I added many new things.</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app"
-                  class="glightbox"><img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/pursang.PNG" data-gallery="portfolio-gallery-app"
+                  class="glightbox"><img src="assets/img/portfolio/pursang.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Branding 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Restaurant</h4>
+                  <h6><a href="https://restaurant-pursang.be/" target="_blank" title="More Details">https://restaurant-pursang.be</a></h6>
+                  <p>A website for a restaurant, the good part is that in the backend, everything is 
+                    approached by inline editing.</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
-                    src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/dierenartsenp.PNG" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/dierenartsenp.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Books 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Pets Care</h4>
+                  <h6><a href="https://www.gezelschapsdierenpraktijk.be/" target="_blank" title="More Details">https://www.gezelschapsdierenpraktijk.be</a></h6>
+                  <p>This website is about Animals and Pets, care. I developed the backend, and hooked up the front end.</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+            <!-- <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
-                    src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/projectsysteem.PNG" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/projectsysteem.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">App 3</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>eCommerce Website</h4>
+                  <h6><a href="http://projectsysteem.be/" target="_blank" title="More Details">https://projectsysteem.be</a></h6>
+                  <p>The main goal of this website is to provide users a platform where they can come and can register for a domain.</p>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
-                    src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/bolton.PNG" data-gallery="portfolio-gallery-app" class="glightbox"><img
+                    src="assets/img/portfolio/bolton.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Product 3</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Management System</h4>
+                  <h6><a href="https://bolton.be/" target="_blank" title="More Details">https://bolton.be</a></h6>
+                  <p>This website is about to manage many company, means, one company managing many other companies.</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
+            <div class="col-xl-4 col-md-6 portfolio-item filter-website">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app"
-                  class="glightbox"><img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/portfolio/strongfoundation.PNG" data-gallery="portfolio-gallery-app"
+                  class="glightbox"><img src="assets/img/portfolio/strongfoundation.PNG" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Branding 3</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Movies Production</h4>
+                  <h6><a href="http://strongfoundationfilms.com/" target="_blank" title="More Details">https://strongfoundationfilms.com</a></h6>
+                  <p>This website is for an American Movie Production that manage movies, users, news list, and stripe payment method. </p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
+            <!-- <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img
                     src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Books 3</a></h4>
+                  <h4>CRM Website</h4>
+                  <h6><a href="portfolio-details.html" title="More Details">Books 3</a></h6>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
 
@@ -684,13 +669,12 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Our Team Section ======= -->
-    <section id="team" class="team">
+    <section id="team" class="team sections-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Our Team</h2>
-          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
-            dolore earum</p>
+          <p>Best team for website designing and develoment.Our team helped a lot to solved problems and patiently taught how to handle the website.</p>
         </div>
 
         <div class="row gy-4">
@@ -698,8 +682,8 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <h4>Walter White</h4>
-              <span>Web Development</span>
+              <h4>Awais Saeed Chohan</h4>
+              <span>Founder</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -712,8 +696,8 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <h4>Sarah Jhinson</h4>
-              <span>Marketing</span>
+              <h4>Ali Saeed Chohan</h4>
+              <span>C.E.O</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -726,8 +710,8 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-              <h4>William Anderson</h4>
-              <span>Content</span>
+              <h4>Usman Haider Khan</h4>
+              <span>Frontend Developer</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -740,8 +724,8 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
+              <h4>Ayaz Ali</h4>
+              <span>Frontend Developer</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -766,8 +750,8 @@
             <div class="content px-xl-5">
               <h3>Frequently Asked <strong>Questions</strong></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                An effective FAQ resource can educate, inform, and naturally guide the user through our website’s
+                 content and toward the goals and results you have set.
               </p>
             </div>
           </div>
@@ -781,14 +765,19 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#faq-content-1">
                     <span class="num">1.</span>
-                    Non consectetur a erat nam at lectus urna duis?
+                    What is your development process?
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                  </div>
+                    <strong>Goal identification:</strong>
+                     Where I work with the client to determine what goals the new website needs to fulfill. I.e., what its purpose is.<br>
+<strong>Scope definition:</strong> Once we know the site's goals, we can define the scope of the project. I.e., what web pages and features the site requires to fulfill the goal, and the timeline for building those out.<br>
+<strong>Sitemap and wireframe creation:</strong> With the scope well-defined, we can start digging into the sitemap, defining how the content and features we defined in scope definition will interrelate.<br>
+<strong>Content creation:</strong> Now that we have a bigger picture of the site in mind, we can start creating content for the individual pages, always keeping search engine optimization (SEO) in mind to help keep pages focused on a single topic. It's vital that you have real content to work with for our next stage.<br>
+<strong>Visual elements:</strong> With the site architecture and some content in place, we can start working on the visual brand. Depending on the client, this may already be well-defined, but you might also be defining the visual style from the ground up. Tools like style tiles, moodboards, and element collages can help with this process.<br>
+<strong>Testing:</strong> By now, you've got all your pages and defined how they display to the site visitor, so it's time to make sure it all works. Combine manual browsing of the site on a variety of devices with automated site crawlers to identify everything from user experience issues to simple broken links.<br>
+<strong>Launch:</strong> Once everything's working beautifully, it's time to plan and execute your site launch! This should include planning both launch timing and communication strategies — i.e., when will you launch and how will you let the world know? After that, it's time to break out the bubbly.</div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -797,15 +786,12 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#faq-content-2">
                     <span class="num">2.</span>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    What size companies do you produce web develoment for?
                   </button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
-                    donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                  </div>
+                    We like to work with all sorts and sizes of businesses and individuals, and we bring the same skills used to support our celebrity and big business clients to the work we do for smaller clients. We’re just as keen to work with small businesses as we are large ones, and as a local firm we’re ideally placed to understand the needs of growing organisations.</div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -814,15 +800,12 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#faq-content-3">
                     <span class="num">3.</span>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                    Do you redesign existing websites?
                   </button>
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
-                    eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
-                    sed odio morbi quis
+                    We certainly can do! It’s important to approach website redesigns sensitively to make sure your reasons for redesigning are valid. This will ensure the project is an overall success from your ROI point of view.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -832,14 +815,12 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#faq-content-4">
                     <span class="num">4.</span>
-                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                    Do you offer ongoing help with our new site once it's launched?
                   </button>
                 </h3>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
-                    donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    If you need our help with web support and maintenance, we’ll be here for you. If not, we will leave you to it. If you change your mind and need us after all, we’ll still be here for you!
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -849,14 +830,12 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#faq-content-5">
                     <span class="num">5.</span>
-                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                    Will my website work on smart phones and tablets as well?
                   </button>
                 </h3>
                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
-                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
-                    Purus gravida quis blandit turpis cursus in
+                    It most certainly will! More people are accessing the web via small screens than ever, and the trend is likely to carry on. If your site doesn’t display or work properly on a mobile or tablet screen, you risk losing a big chunk of your potential audience. It means mobile responsive web design is essential these days. Every website we create is mobile responsive.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -892,7 +871,7 @@
               <p class="post-category">Politics</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="blog-details.html">One of the penalties for refusing to participate in politics is that you end up being governed by your inferiors.</a>
               </h2>
 
               <div class="d-flex align-items-center">
@@ -918,7 +897,7 @@
               <p class="post-category">Sports</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="blog-details.html">Sports do not build character. They reveal it.</a>
               </h2>
 
               <div class="d-flex align-items-center">
@@ -944,7 +923,7 @@
               <p class="post-category">Entertainment</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+                <a href="blog-details.html">Entertainment is there to improve people's quality of life. After your basic needs, there's entertainment.</a>
               </h2>
 
               <div class="d-flex align-items-center">
@@ -992,7 +971,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
-                  <p>info@devonsite.com</p>
+                  <a href="mailto:contact@example.com"><p>info@devonsite.com</p></a>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1000,7 +979,7 @@
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
+                  <a href="tel:+92 335 4925006"><p>+92 335 4925006</p></a>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1014,9 +993,23 @@
             </div>
 
           </div>
+          <style>
+            
+            .send-message{
+              background: #008374;
+              border: 0;
+              padding: 14px 45px;
+              color: #fff;
+              transition: 0.4s;
+              border-radius: 50px;
+            }
 
+            .send-message:hover{
+              background: rgba(0, 131, 116, 0.8);
+            }
+          </style>
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -1029,15 +1022,15 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="7" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+              <div class="text-center"><button id="submit" class="send-message">Send Message</button></div>
+             </form>
           </div><!-- End Contact Form -->
 
         </div>
@@ -1056,8 +1049,8 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span>Devonsite</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta
-            donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Create better websites with mobile-responsive templates,
+             seamless drag & drop and unlimited customization.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -1094,8 +1087,8 @@
             Fareed koat road <br>
             Arooj center, OfficeNo: 217<br>
             Pakistan <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@devonsite.com<br>
+            <strong>Phone:</strong> <a href="tel:+92 335 4925006">+92 335 4925006</a><br>
+            <strong>Email:</strong> <a href="mailto:contact@example.com">info@devonsite.com</a><br>
           </p>
 
         </div>
@@ -1118,16 +1111,55 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.8/sweetalert2.min.js" integrity="sha512-c1AfYKag4intaizqJC0Zx1NxImYP7B2namyOLbpFW3P12oYkZjQGQ/8r6N75SlWidbm7oQElnVZqBzRvFtU0Hw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#submit").click( function(){
+        $("#submit").attr("disabled", "disabled");
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var subject = $('#subject').val();
+        var message = $('#message').val();
+        if(name!="" && email!="" && subject!="" && message!=""){
+              $.ajax({
+                url: "forms/contact.php",
+                type: "POST",
+                data: {
+                  name: name,
+                  email: email,
+                  subject: subject,
+                  message: message				
+                },
+                cache: false,
+                success: function(dataResult){
+                    Swal.fire({
+                      icon: 'success',
+                      title: 'Email Sent',
+                      text: `${name} Your Email has been sent and your information has been stored by Devonsite`,
+                    });			
+                }
+	           });
+	        }
+      else{
+        alert('Please fill all the field !');
+      }
+       
+      });
+    });
+  </script>
+  
 
 </body>
 
